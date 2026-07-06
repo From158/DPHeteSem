@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository. Article citation metadata will be added after publication."
+title: "DPHeteSem: Differentially Private Semantic Graph Release"
+type: software
+authors:
+  - family-names: Luo
+    given-names: Chenyue
+  - family-names: Fang
+    given-names: Xianjin
+  - family-names: Zhang
+    given-names: Pengfei
+  - family-names: Liu
+    given-names: Zhi
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/From158/DPHeteSem"
