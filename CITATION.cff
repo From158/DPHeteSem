@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this repository. Article citation metadata will be added after publication."
+message: "If you use this software, please cite the DPHeteSem article listed in preferred-citation."
 title: "DPHeteSem: Differentially Private Semantic Graph Release"
 type: software
 authors:
@@ -14,3 +14,22 @@ authors:
 version: 0.1.0
 license: MIT
 repository-code: "https://github.com/From158/DPHeteSem"
+preferred-citation:
+  type: article
+  title: "DPHeteSem: Differentially private semantic graph release for privacy-preserving data sharing in recommender systems"
+  authors:
+    - family-names: Luo
+      given-names: Chenyue
+    - family-names: Fang
+      given-names: Xianjin
+    - family-names: Zhang
+      given-names: Pengfei
+    - family-names: Liu
+      given-names: Zhi
+  journal: "Computers & Security"
+  year: 2026
+  month: 11
+  number: "105248"
+  doi: "10.1016/j.cose.2026.105248"
+  url: "https://doi.org/10.1016/j.cose.2026.105248"
+  status: advance-online

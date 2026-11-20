@@ -1,9 +1,27 @@
 # DPHeteSem
 
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.cose.2026.105248-blue)](https://doi.org/10.1016/j.cose.2026.105248)
+
 DPHeteSem releases multiple node-aligned semantic graph views under
 semantic-edge-level differential privacy. The package publishes a shared
 partition, noisy block counts, and noisy node degrees, then synthesizes sparse
 graphs using only those released quantities.
+
+## Paper
+
+**DPHeteSem: Differentially private semantic graph release for privacy-preserving
+data sharing in recommender systems**
+
+Chenyue Luo, Xianjin Fang, Pengfei Zhang, and Zhi Liu
+
+*Computers & Security*, 2026, article 105248.
+
+- [Article / DOI](https://doi.org/10.1016/j.cose.2026.105248)
+- [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0167404826004244)
+- [BibTeX](CITATION.bib)
+
+Accepted on 6 November 2026; available online as a **Journal Pre-proof**.
+Volume and issue information will be added when assigned by the publisher.
 
 ## Scope
 
@@ -113,11 +131,28 @@ tests/               Functional and accounting tests
 
 ## Citation
 
-The manuscript associated with this software is currently under review. Until
-final bibliographic metadata are available, cite the software using the
-repository's `CITATION.cff` file. After publication, this section and
-`CITATION.cff` will be updated with the article DOI, journal, volume, issue,
-page range or article number, and the preferred article citation.
+If you use DPHeteSem in your research, please cite the article:
+
+> Chenyue Luo, Xianjin Fang, Pengfei Zhang, and Zhi Liu. DPHeteSem:
+> Differentially private semantic graph release for privacy-preserving data
+> sharing in recommender systems. *Computers & Security*, 2026, 105248.
+> https://doi.org/10.1016/j.cose.2026.105248
+
+```bibtex
+@article{luo2026dphetesem,
+  title   = {{DPHeteSem}: Differentially private semantic graph release for privacy-preserving data sharing in recommender systems},
+  author  = {Luo, Chenyue and Fang, Xianjin and Zhang, Pengfei and Liu, Zhi},
+  journal = {Computers \& Security},
+  year    = {2026},
+  pages   = {105248},
+  doi     = {10.1016/j.cose.2026.105248},
+  url     = {https://doi.org/10.1016/j.cose.2026.105248}
+}
+```
+
+The same entry is available in [`CITATION.bib`](CITATION.bib). GitHub's
+**Cite this repository** button uses the preferred article citation in
+[`CITATION.cff`](CITATION.cff).
 
 ## License
 

@@ -34,6 +34,7 @@ test = ["pytest>=7", "ruff>=0.6"]
 dphetesem = "dphetesem.cli:main"
 
 [project.urls]
+Paper = "https://doi.org/10.1016/j.cose.2026.105248"
 Repository = "https://github.com/From158/DPHeteSem"
 Issues = "https://github.com/From158/DPHeteSem/issues"
 
